@@ -1,0 +1,23 @@
+<p [ngClass]="estilo">componente-atributo works!</p>
+<button (click)="trocar()">Mudar</button>
+<h1 [ngStyle]="{'background': corFundo, 'color': corFont}">Curso Angular</h1>
+
+<h1>Lista de compras</h1>
+<p>Adicione um item</p>
+<input type="text" [(ngModel)]="item">
+<button (click)="addLista()">Adicionar item</button>
+<p>{{  item }}</p>
+
+<ul>
+    <li *ngFor="let elemento of listar"> {{ elemento }} </li>
+</ul>
+
+<ng-template [ngIf]="isEnableBlock">
+    <a href="#">Finalizar compra</a>
+</ng-template>
+<br>
+<ng-template [ngIf]="isEnableBlock">
+    <a href="#">Adicionar ao carrinho</a>
+</ng-template>
+
+<ng-content select="p"></ng-content>

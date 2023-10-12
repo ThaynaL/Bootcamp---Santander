@@ -1,0 +1,6 @@
+# Pokédex
+Este projeto é para fins educativos feito acompanhando o expert [Renan JP](https://github.com/RenanJPaula) no Git Hub atavez da plataforma da [DIO](https://www.dio.me/) usando a [PokéAPI](https://pokeapi.co) e feito com HTML, CSS E JavaScript. Tendo como base para as informações sobre eles o site [oficial de Pokemon](https://www.pokemon.com/br/pokedex/).A ideia é que essa seja uma pokédex dos novos pokemons da região de Paldea do jogo Pokemon Scarlet & Violet com a numeração da pokédex global. Com o tempo eu devo modifica-la para que seja mais completa.
+
+#### Dificuldades
+Tive dificuldade de em configurar a extenção http-server, mas encontrei esses links que ajudaram: [Artigo](https://www.dio.me/articles/erro-ao-iniciar-http-server) na plataforma da DIO e a [documentação](https://learn.microsoft.com/pt-br/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3).
+Também tive um pouco de dificuldade para na compreenção de alguns detalhes como cada parte do código fazeria, mas com um poico de pesquisa superei isso.

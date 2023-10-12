@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1, h3, h4{
+    margin-left: 5px;
+}
+
+.title{
+    margin: auto;
+    border-bottom: 2px dotted purple;
+
+}
+
+.post{
+    background-color: rgba(151, 117, 170, 0.63);
+    padding: 2%;
+    border-radius: 50px;
+    color: white;
+    text-align: justify;
+    margin: 5px;
+
+}
+
+#contato{
+    background-color: rgba(15, 15, 15, 0.801);
+    color: white;
+    font-size:medium;
+    height: 100vh;
+}
+
+.contects_list{
+    list-style-type: none;
+}
+
+ul.contects_list {
+    display: flex;
+}
+
+@media screen and (max-width: 425px) {
+    .post{
+        min-width: 250px;
+        background-color: purple;
+        padding: 5%;
+        border-radius: 50px;
+        color: white;
+        text-align: justify;
+        margin: 5px;
+    }
+}
