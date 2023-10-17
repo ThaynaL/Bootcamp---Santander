@@ -1,0 +1,19 @@
+<div class="container__small-news"> 
+    <div class="small-news">
+        <div class="small-news_photo">
+            <img 
+                src="{{ fotoCard }}" 
+                alt="{{ fotoDescr }}" 
+                srcset=""
+            >
+        </div> 
+        <div class="small-news_title">
+            <h3><a [routerLink]="['content', id]">{{ tituloCard }}</a></h3>
+        </div>    
+    </div>
+    <div class="small-news_decoration">
+      <hr>  
+    </div>
+    
+</div>
+

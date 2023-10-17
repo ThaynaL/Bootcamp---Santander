@@ -1,0 +1,16 @@
+.menu-title{
+    color: white;
+}
+
+.menu-title > h1{
+    margin: 15px 5px 15px 5px;
+    font-size: 120px;
+    font-weight: bolder;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.menu-title > hr{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

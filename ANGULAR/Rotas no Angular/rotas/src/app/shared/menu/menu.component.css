@@ -1,0 +1,9 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.activated{
+    color: rgb(90, 0, 99);
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width:768px) {
+    .articles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        margin: 1% 15% 1% 15%;
+    
+    }
+    .articles-others{
+        text-align: center;
+    }
+}

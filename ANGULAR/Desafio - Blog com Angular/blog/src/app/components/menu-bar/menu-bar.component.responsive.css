@@ -1,0 +1,10 @@
+@media screen and (min-width: 2560px) {
+    a{
+        font-size: 40px;
+
+        margin-top: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+  
+}

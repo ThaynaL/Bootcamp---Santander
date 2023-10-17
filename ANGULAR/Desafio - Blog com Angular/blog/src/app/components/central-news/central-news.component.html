@@ -1,0 +1,19 @@
+<div class="central-news"> 
+    <div class="central-news_photo">
+        <img 
+            src="{{ fotoCard }}" 
+            alt="{{ fotoDescr }}" 
+            height="200px"
+            srcset=""
+        >
+    </div> 
+    <a [routerLink]="['content', id]">
+        <div class="central-news_title">
+            <h1>{{ tituloCard  }}</h1>
+        </div>
+        <div class="central-news_description">
+            <p>{{ descricaoCard }}</p>
+        </div>  
+    </a>
+    
+</div>

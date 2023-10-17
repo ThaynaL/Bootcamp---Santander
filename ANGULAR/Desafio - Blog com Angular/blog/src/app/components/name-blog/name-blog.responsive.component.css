@@ -1,0 +1,14 @@
+@media screen and (max-width:768px) {
+
+    .menu-title > h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    .menu-title > h1{
+        font-size: 20px;
+    }
+}
+
