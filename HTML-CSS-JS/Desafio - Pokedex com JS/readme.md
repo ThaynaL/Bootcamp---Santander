@@ -3,4 +3,4 @@ Este projeto é para fins educativos feito acompanhando o expert [Renan JP](http
 
 #### Dificuldades
 Tive dificuldade de em configurar a extenção http-server, mas encontrei esses links que ajudaram: [Artigo](https://www.dio.me/articles/erro-ao-iniciar-http-server) na plataforma da DIO e a [documentação](https://learn.microsoft.com/pt-br/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3).
-Também tive um pouco de dificuldade para na compreenção de alguns detalhes como cada parte do código fazeria, mas com um poico de pesquisa superei isso.
+Também tive um pouco de dificuldade para na compreenção de alguns detalhes como cada parte do código fazeria, mas com um pouco de pesquisa superei isso.
