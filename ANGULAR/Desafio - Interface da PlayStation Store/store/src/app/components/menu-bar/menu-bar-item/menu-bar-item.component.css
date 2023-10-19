@@ -1,0 +1,26 @@
+.menu-bar_item{
+	margin-left: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar_item > ul{
+	display: flex;
+	list-style-type: none;
+}
+
+.menu-bar_item > ul > li{
+	margin-right: 5px;
+	padding: 15px;
+}
+
+.menu-bar_item > ul > li > a{
+	text-decoration: none;
+	padding: 5px;
+	color: rgb(3, 3, 29);
+}
+
+.menu-bar_item > ul > li > a:hover{
+	color: black;
+	font-weight: bold;
+}

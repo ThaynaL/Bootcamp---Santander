@@ -8,6 +8,7 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardComponent } from './components/card/card.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
 import { CardPrecoComponent } from './components/card/card-preco/card-preco.component';
+import { MenuBarItemComponent } from './components/menu-bar/menu-bar-item/menu-bar-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardPrecoComponent } from './components/card/card-preco/card-preco.comp
     MenuBarComponent,
     CardComponent,
     CardLabelComponent,
-    CardPrecoComponent
+    CardPrecoComponent,
+    MenuBarItemComponent
   ],
   imports: [
     BrowserModule,
